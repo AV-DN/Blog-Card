@@ -67,6 +67,7 @@ body{
 .card_heading h2{
   color: var(--Gray);
   margin-bottom: 20px;
+  transition: .3s ease;
 }
 
 .card_heading p{
@@ -89,6 +90,18 @@ body{
 
 .card_user p{
   font-weight: 600;
+}
+
+/*Hover the card*/
+
+.card:hover{
+  max-width: 400px;
+
+}
+
+.card_heading h2:hover{
+  cursor: pointer;
+  color: var(--Yellow)
 }
 
 
