@@ -86,18 +86,15 @@ body{
   max-width: 40px;
   height: 40px;
   object-fit: cover;
+  margin-bottom: 0;
 }
 
-.card_user p{
+.card_user a{
+  text-decoration: none;
+  color: var(--Gray);
   font-weight: 600;
 }
 
-/*Hover the card*/
-
-.card:hover{
-  max-width: 400px;
-
-}
 
 .card_heading h2:hover{
   cursor: pointer;
